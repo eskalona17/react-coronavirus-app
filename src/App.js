@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Data from "./Data";
-import App2 from './App2';
 import "./App.css";
 
 class App extends Component {
@@ -33,7 +32,6 @@ class App extends Component {
     }
     return (
       <>
-      <App2 />
       <Data
         confirmed={this.state.confirmed}
         deaths={this.state.deaths}
