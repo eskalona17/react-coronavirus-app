@@ -1,15 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const DataContainer = styled.div`
-text-align: center
-`
+  text-align: center;
+`;
 
 const Number = styled.p`
-font-size: 32px;
-font-weight: bold;
-`
+  font-size: 32px;
+  font-weight: bold;
+`;
 
 const Data = ({ number, title }) => (
   <DataContainer>
@@ -19,8 +19,8 @@ const Data = ({ number, title }) => (
 );
 
 Data.propTypes = {
-    number: PropTypes.number.isRequired,
-    title: PropTypes.number.isRequired
-}
+  number: PropTypes.number.isRequired,
+  title: PropTypes.number.isRequired,
+};
 
-export default Data
+export default Data;
